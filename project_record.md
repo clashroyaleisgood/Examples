@@ -6,6 +6,8 @@
 - step by step 說明使用方式 [**如下**](#Hackmd-與-Github-連接)
 
 ### Hackmd 與 Github 連接
+[reference](https://hackmd.io/c/tutorials-tw/%2Fs%2Flink-with-github-tw)  
+
 1. 註冊 Github 帳號 & 建立 Repository
 2. 註冊 Hackmd 帳號 & 新增筆記
 3. 從 Hackmd 筆記，連接至 Github
@@ -37,7 +39,7 @@
 #### step 3 連接
 - 右上角的 ...，選 `版本與 Github 同步`  
   ![image](https://hackmd.io/_uploads/BJY717Fia.png =400x)
-- 選 推送至 Github  
+- 選 `推送至 Github`  
   (拉取/推送 分別對應到 Git 操作的 Pull/Push)  
   ![image](https://hackmd.io/_uploads/ryovymFoT.png)  
   - 第一個授權: 授權 Hackmd 存取資料  
@@ -47,5 +49,18 @@
     ![image](https://hackmd.io/_uploads/SyMtSXFiT.png =200x)  
     在 `Repository Access` 中，選擇要授權給 Hackmd 操作的 Repository  
     ![image](https://hackmd.io/_uploads/H1K1wQYoT.png)
-
-
+    回到剛剛 `推送` 後進入的頁面，選擇...  
+    Repo: 剛剛操作的那個 Repository,  
+    Branch: main，若是不能選擇，那就直接用輸入的  
+    同步的檔案: 自己新增一個檔案，名稱自己選，副檔名記得要是 `.md` 就好  
+    ![image](https://hackmd.io/_uploads/SytEdQtjp.png)  
+    完成後確認送出~
+#### 後續操作
+之後每次完成紀錄，要推送至 Github 時只需要
+- 按右上角的 ...，選 `版本與 Github 同步`
+- 按 `推送變更`  
+  ![image](https://hackmd.io/_uploads/B1UqeNti6.png)
+- `建立新版本並推送`
+  ![image](https://hackmd.io/_uploads/HJ1B-VKo6.png)  
+  (這裡也可以自定義 `版本名稱` 與 `版本敘述`，對應到的是 Github 上顯示的 `commit 標題與細節敘述`；用來註記我的 code 這次做了什麼更新/調整
+  ![image](https://hackmd.io/_uploads/HyiCZEFo6.png)
